@@ -25,7 +25,7 @@ import javax.ws.rs.QueryParam;
 @Path("/")
 public class GreetingEndpoint {
 
-    private static final String template = "New greeter, %s!";
+    private static final String template = "Updated greeter, %s!";
 
     @GET
     @Path("/greeting")
